@@ -1,1 +1,97 @@
+* {
+    background-color: #d8f7ed;
+}
+
+h1 {
+      box-shadow: -2px 2px 5px black;
+      text-align: center;
+      font-size: 20px;
+      font-family: fantasy;
+
+    }
+
+p {
+    font-family: fantasy;
+    font-size: 15px;
+}
+article p{
+  font-family: 'Courier New', Courier, monospace
+}
+aside p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+  background-image: url('images/xiao_lantern_wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  height: 100px;
+}
+
+.sticky-banner{
+  position: sticky;
+  top: 0;
+  text-align: center;
+  font-size: 20px; 
+  background-color: darkslateblue;
+  font-family: fantasy;
+  box-shadow: -2px 2px 5px black;
+  color:azure;
+  padding: 15px
+  
+}
+
+.nav-bar{
+  background-color:palegoldenrod;
+  display: flex; 
+  justify-content: center; 
+  column-gap: 20px;
+  padding: 12px 0;
+  font-weight: bold;
+}
+
+.nav-bar a {
+   color:rgb(26, 47, 28);
+   text-decoration: none;
+   margin: 0 15px;
+   font-weight: bold; 
+}
+
+.nav-bar a:hover {
+    /* a light blue accent */
+    color: #8ed7a2;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto;
+  background-color: palegoldenrod;
+  padding: 15px;
+  gap: 5px;
+}
+
+.container div{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+li {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 300px;
+}
+
 
