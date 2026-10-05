@@ -1,1 +1,6 @@
-
+title: Amber's Portfolio Website
+tagline: A website I've built to document and show my past and present projects
+description: Projects including programming and art projects will be displayed here! Eventually.
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
